@@ -35,12 +35,13 @@ def entrenar(tokens, n):
     return tabla
 
 
-def generar(tabla, n, largo=40):
+def generar(tabla, n, largo=25):
     """Usar el modelo es sortear: mirar las últimas n palabras y elegir una de las que vinieron después."""
     # Arranca después de un punto, para empezar una oración. El punto no se muestra.
     comienzos = [c for c in tabla if c[0] == "."] or list(tabla)
     salida = list(random.choice(comienzos))
-    for _ in range(largo):
+    # Termina en el primer punto después de `largo` palabras (con un tope, por si no llega nunca).
+    while not (len(salida) > largo and salida[-1] == ".") and len(salida) < 3 * largo:
         contexto = tuple(salida[-n:])
         if contexto not in tabla:        # el modelo nunca vio este contexto: se traba
             break

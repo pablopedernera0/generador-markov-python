@@ -12,6 +12,10 @@ palabras en un texto, y genera sorteando la siguiente según esas cuentas. Acá 
 | `con_markovify.py` | La misma idea con la biblioteca [markovify](https://github.com/jsvine/markovify). |
 | `textos/` | Los textos de partida: los de la página web y *El gaucho Martín Fierro*. |
 
+Para probarlo sin instalar nada, en el navegador: escenario de Killercoda
+[generador-markov](https://killercoda.com/pablop22/scenario/generador-markov), que clona este
+repo y lo deja listo para usar.
+
 ## Uso
 
 ```bash
