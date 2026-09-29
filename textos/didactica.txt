@@ -1,0 +1,28 @@
+nombre: Didáctica
+pista: Un fragmento sobre Camilloni y, abajo, frases escritas a propósito con estructuras que se repiten. Con 2 palabras de contexto, fijate cuándo copia el fragmento (tramos sin resaltar) y cuándo salta de una frase a otra.
+---
+Camilloni no define la didáctica de entrada, sino que la justifica por el absurdo: enumera ocho supuestos que, si fueran ciertos, la volverían innecesaria — que da igual cómo se enseñe, que los contenidos deban calcarse de su disciplina de origen, que las desigualdades de aprendizaje sean inevitables, que enseñar sea un don innato y no una práctica perfectible.
+Cada supuesto refutado es un argumento a favor de que la didáctica exista: siempre se puede enseñar mejor, siempre hay currículos y estrategias por revisar.
+Con esto, define a la didáctica como una disciplina teórica, pero «necesariamente comprometida con prácticas sociales» — no hay didáctica neutral.
+En una segunda parte, Camilloni resuelve la tensión entre didáctica general y didácticas específicas (de una edad, un nivel, una disciplina) con una imagen que después retoma Kap: la didáctica no funciona como un árbol donde la general es el tronco y las específicas son ramas.
+Es una red de conocimientos que se retroalimentan en ambas direcciones.
+
+La didáctica es la disciplina que estudia la enseñanza.
+La didáctica es una disciplina teórica comprometida con la práctica.
+La didáctica general estudia la enseñanza en cualquier nivel.
+La didáctica específica estudia la enseñanza de una disciplina.
+Las didácticas específicas estudian la enseñanza de un nivel, de una edad o de una disciplina.
+El docente planifica la clase a partir de lo que saben los estudiantes.
+El docente revisa la planificación a partir de lo que pasó en la clase.
+El docente evalúa lo que aprendieron los estudiantes.
+Los estudiantes aprenden de a poco.
+Enseñar es una práctica que se puede mejorar.
+Enseñar es una práctica social.
+Enseñar es tomar decisiones sobre la clase.
+Aprender es construir conocimiento a partir de lo que ya se sabe.
+Siempre se puede enseñar mejor.
+Se agrega la consigna al comienzo de la clase.
+Se pone la tarea en el aula virtual.
+Se evalúa la tarea con una rúbrica.
+En la clase se enseña y se aprende.
+En la escuela se enseña a partir de lo que saben los estudiantes.

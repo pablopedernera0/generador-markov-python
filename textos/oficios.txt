@@ -1,0 +1,15 @@
+nombre: Oficios
+pista: Probá empezar con «La ingeniera» o «El enfermero». Ninguna frase dice que no existan: simplemente no aparecen.
+---
+El ingeniero revisó los planos de la obra.
+El ingeniero calculó la estructura del puente.
+La enfermera atendió a los pacientes de la guardia.
+La enfermera controló la presión del paciente.
+El médico firmó el alta del paciente.
+El director habló en el acto de la escuela.
+La maestra corrigió las tareas de los chicos.
+La maestra preparó el acto de la escuela.
+El programador escribió el código del sistema.
+El programador corrigió el error del sistema.
+La secretaria atendió el teléfono de la escuela.
+El jefe de la obra revisó los planos del puente.

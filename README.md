@@ -1,0 +1,39 @@
+# Generador de texto con cadenas de Markov, en Python
+
+Código de la sección optativa de la lectura sobre cadenas de Markov, material complementario
+del generador web: https://pablopedernera0.github.io/generador-markov/
+
+Un generador de Markov aprende contando qué palabra vino después de cada secuencia de
+palabras en un texto, y genera sorteando la siguiente según esas cuentas. Acá está dos veces:
+
+| Archivo | Qué hace |
+|---|---|
+| `markov.py` | El generador completo en Python puro, sin bibliotecas. Unas treinta líneas. |
+| `con_markovify.py` | La misma idea con la biblioteca [markovify](https://github.com/jsvine/markovify). |
+| `textos/` | Los textos de partida: los de la página web y *El gaucho Martín Fierro*. |
+
+## Uso
+
+```bash
+python3 markov.py textos/hechos.txt            # genera con 2 palabras de contexto
+python3 markov.py textos/hechos.txt 3          # con 3
+python3 markov.py textos/oficios.txt 2 tabla   # muestra la tabla: el modelo entero
+
+pip install markovify
+python3 con_markovify.py                              # una estrofa del Martín Fierro
+python3 con_markovify.py textos/martin-fierro.txt 3   # con 3 palabras de contexto
+python3 con_markovify.py textos/martin-fierro.txt 2 copias
+```
+
+La última línea muestra algo que el generador web deja ver a ojo: con poco texto y mucho
+contexto, lo generado es copia del original. `markovify` lo controla por defecto: descarta
+una oración generada si repite textualmente un tramo del original de más del 70 % de su
+largo (o de 15 palabras). El modo `copias` genera 300 versos con y sin ese control y cuenta
+cuántos son un verso del poema tal cual.
+
+## Textos
+
+Los textos de `textos/` tienen un encabezado (`nombre:`, `pista:`, línea `---`) que los
+scripts saltean. *El gaucho Martín Fierro* (José Hernández, 1872) es de dominio público; el
+texto sale de la edición digital de la Biblioteca Digital Argentina publicada en Proyecto
+Gutenberg (ebook 14765), sin la carta del autor ni los números de estrofa.

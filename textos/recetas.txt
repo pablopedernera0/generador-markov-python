@@ -1,0 +1,12 @@
+nombre: Recetas
+pista: Instrucciones de cocina. Compará cómo suena lo generado con 1, 2 y 3 palabras de contexto.
+---
+Para hacer un bizcochuelo se baten los huevos con el azúcar.
+Se agrega la harina de a poco y se mezcla con cuidado.
+Se pone la mezcla en un molde enmantecado.
+Se cocina en el horno a temperatura moderada durante cuarenta minutos.
+Para hacer mate se llena el mate con yerba hasta las dos terceras partes.
+Se moja la yerba con agua tibia y se espera un minuto.
+Se pone la bombilla y se ceba con agua caliente, sin que hierva.
+Para hacer una salsa se pica la cebolla y se rehoga en aceite.
+Se agrega el tomate y se cocina a fuego bajo durante veinte minutos.

@@ -1,0 +1,18 @@
+nombre: Hechos de geografía
+pista: Todas las frases de este texto son verdaderas. Generá hasta encontrar una frase gramatical y falsa, y buscá de dónde salió cada palabra.
+---
+Rosario está en la provincia de Santa Fe.
+Ushuaia está en la provincia de Tierra del Fuego.
+Bariloche está en la provincia de Río Negro.
+Mendoza está al pie de la cordillera de los Andes.
+La ciudad de Córdoba es la capital de la provincia de Córdoba.
+La ciudad de Santa Fe es la capital de la provincia de Santa Fe.
+Paraná es la capital de la provincia de Entre Ríos.
+Salta es la capital de la provincia de Salta.
+El río Paraná pasa por Rosario y por Corrientes.
+Las cataratas del Iguazú están en la provincia de Misiones.
+En la provincia de Mendoza se produce mucho vino.
+En la provincia de Tucumán se produce mucho azúcar.
+En Ushuaia nieva en invierno.
+El Aconcagua está en la provincia de Mendoza.
+El Aconcagua es la montaña más alta de América.

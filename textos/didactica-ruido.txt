@@ -1,0 +1,11 @@
+nombre: Didáctica con ruido
+pista: El texto de Didáctica con algunas frases agregadas que son falsas u opiniones sin fundamento: ruido. Cuando encuentres una frase dudosa en lo generado, tocá sus palabras para decidir si la armó el modelo recombinando o si ya estaba en los datos.
+junta: didactica.txt
+---
+Si se evalúa la tarea con una rúbrica todo puede resultar un gran error.
+Enseñar es un don innato.
+La didáctica es innecesaria porque da igual cómo se enseñe.
+El docente no necesita planificar la clase.
+Los estudiantes aprenden igual con cualquier consigna.
+Las desigualdades de aprendizaje son inevitables.
+Siempre se puede enseñar sin planificar.
