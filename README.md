@@ -19,12 +19,22 @@ repo y lo deja listo para usar.
 
 ## Uso
 
+`markov.py` no necesita nada más que Python 3. Para `con_markovify.py` y `app.py` conviene un
+entorno virtual: en Ubuntu y Debian recientes, `pip install` fuera de un entorno virtual está
+bloqueado para proteger los paquetes del sistema, y forzarlo puede chocar con versiones que
+trae el sistema (pasa con `blinker`, que usa Flask).
+
+```bash
+python3 -m venv .venv          # en Ubuntu, si falla: sudo apt install python3-venv
+source .venv/bin/activate
+pip install markovify flask
+```
+
 ```bash
 python3 markov.py textos/hechos.txt            # genera con 2 palabras de contexto
 python3 markov.py textos/hechos.txt 3          # con 3
 python3 markov.py textos/oficios.txt 2 tabla   # muestra la tabla: el modelo entero
 
-pip install markovify
 python3 con_markovify.py                              # una estrofa del Martín Fierro
 python3 con_markovify.py textos/martin-fierro.txt 3   # con 3 palabras de contexto
 python3 con_markovify.py textos/martin-fierro.txt 2 copias
@@ -39,7 +49,6 @@ cuántos son un verso del poema tal cual.
 Y una página web sobre el mismo código:
 
 ```bash
-pip install flask
 python3 app.py      # http://localhost:5000
 ```
 
