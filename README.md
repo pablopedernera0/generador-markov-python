@@ -10,6 +10,7 @@ palabras en un texto, y genera sorteando la siguiente según esas cuentas. Acá 
 |---|---|
 | `markov.py` | El generador completo en Python puro, sin bibliotecas. Unas treinta líneas. |
 | `con_markovify.py` | La misma idea con la biblioteca [markovify](https://github.com/jsvine/markovify). |
+| `app.py` | Una página web mínima con Flask que llama a `markov.py`. Al guardar `markov.py`, se reinicia sola. |
 | `textos/` | Los textos de partida: los de la página web y *El gaucho Martín Fierro*. |
 
 Para probarlo sin instalar nada, en el navegador: escenario de Killercoda
@@ -28,6 +29,18 @@ python3 con_markovify.py                              # una estrofa del Martín 
 python3 con_markovify.py textos/martin-fierro.txt 3   # con 3 palabras de contexto
 python3 con_markovify.py textos/martin-fierro.txt 2 copias
 ```
+
+Y una página web sobre el mismo código:
+
+```bash
+pip install flask
+python3 app.py      # http://localhost:5000
+```
+
+`app.py` no tiene lógica propia: importa `entrenar()` y `generar()` de `markov.py`. Probá
+cambiar algo en `markov.py` (por ejemplo, que `generar()` elija siempre la continuación más
+frecuente en lugar de sortear), guardar y recargar la página. Es, en chiquito, la relación
+entre un modelo y la aplicación que lo usa.
 
 La última línea muestra algo que el generador web deja ver a ojo: con poco texto y mucho
 contexto, lo generado es copia del original. `markovify` lo controla por defecto: descarta
