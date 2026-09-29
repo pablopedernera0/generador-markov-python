@@ -30,6 +30,12 @@ python3 con_markovify.py textos/martin-fierro.txt 3   # con 3 palabras de contex
 python3 con_markovify.py textos/martin-fierro.txt 2 copias
 ```
 
+La última línea muestra algo que el generador web deja ver a ojo: con poco texto y mucho
+contexto, lo generado es copia del original. `markovify` lo controla por defecto: descarta
+una oración generada si repite textualmente un tramo del original de más del 70 % de su
+largo (o de 15 palabras). El modo `copias` genera 300 versos con y sin ese control y cuenta
+cuántos son un verso del poema tal cual.
+
 Y una página web sobre el mismo código:
 
 ```bash
@@ -41,12 +47,6 @@ python3 app.py      # http://localhost:5000
 cambiar algo en `markov.py` (por ejemplo, que `generar()` elija siempre la continuación más
 frecuente en lugar de sortear), guardar y recargar la página. Es, en chiquito, la relación
 entre un modelo y la aplicación que lo usa.
-
-La última línea muestra algo que el generador web deja ver a ojo: con poco texto y mucho
-contexto, lo generado es copia del original. `markovify` lo controla por defecto: descarta
-una oración generada si repite textualmente un tramo del original de más del 70 % de su
-largo (o de 15 palabras). El modo `copias` genera 300 versos con y sin ese control y cuenta
-cuántos son un verso del poema tal cual.
 
 ## Textos
 
